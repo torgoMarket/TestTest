@@ -1,5 +1,6 @@
 import React from 'react'
 
 export const Home = () => {
-	return <div>Home</div>
+	const navigate = useNavigate()
+	return <div onClick={() => navigate('/about')}>Home</div>
 }
